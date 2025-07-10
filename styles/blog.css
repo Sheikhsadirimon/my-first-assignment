@@ -2,14 +2,12 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -17,26 +15,28 @@
 header{
     background-image: url(Assets/Hero-bg.png);
     max-width: 1920px;
-    height: 400px;
+    height: 700px;
     margin: 0 auto;
 }
 nav{
     display: flex;
     justify-content: space-between;
     margin: 10px 100px ;
+    padding: 30px;
     
 }
 .inter-normal{
-    font-size: larger;
+    font-weight: 900;
     color: #4E47FF;
 }
-.section1{
+.hero{
     text-align: center;
     font-size: xxx-large;
     font-weight: bold;
+    padding: 100px;
 }
 button{
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: #4E47FF;
     border-radius: 10px;
     color: white;
@@ -55,5 +55,5 @@ button:hover{
     margin: 100px 100px;
 }
 .wcmini{
-    text-align: right;
+    display: flex;
 }
