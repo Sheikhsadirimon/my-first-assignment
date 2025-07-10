@@ -55,5 +55,11 @@ button:hover{
     margin: 100px 100px;
 }
 .wcmini{
+    border-radius: 12px;
+}
+.hero-action{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px ;
 }
