@@ -17,13 +17,13 @@
 header{
     background-image: url(Assets/Hero-bg.png);
     max-width: 1920px;
-    height: 700px;
+    height: 400px;
     margin: 0 auto;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 10px 100px
+    margin: 10px 100px ;
     
 }
 .inter-normal{
@@ -40,10 +40,20 @@ button{
     background-color: #4E47FF;
     border-radius: 10px;
     color: white;
+    border: none;
 }
 .stayfocus{
     margin: 30px;
 }
 button:hover{
     background-color: rgba(23, 12, 180, 0.466);
+}
+.subtitle{
+    color: gray;
+}
+.div1{
+    margin: 100px 100px;
+}
+.wcmini{
+    text-align: right;
 }
