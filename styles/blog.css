@@ -75,7 +75,7 @@ p {
   font-size: 26;
 }
 .wcmini {
-  border-radius: 12px;
+  border-radius: 50px;
 }
 .hero-action {
   display: flex;
@@ -86,7 +86,7 @@ p {
 /* Thousands productive */
 .section2 {
   background-color: #4d47ff2f;
-  border-radius: 12px;
+  border-radius: 30px;
   margin: 40px 400px;
   width: 1140px;
   height: 306px;
