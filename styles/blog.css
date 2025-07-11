@@ -10,8 +10,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+    background-color: #F5F8FF;
+}
 
-/* Header */
+*{margin: 0;}
+
+   /* Header */
 header{
     background-image: url(Assets/Hero-bg.png);
     max-width: 1920px;
@@ -21,8 +26,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 10px 100px ;
-    padding: 30px;
+    padding: 50px 200px;
     
 }
 .inter-normal{
@@ -34,7 +38,7 @@ span{
 }
 .hero{
     text-align: center;
-    font-size: xxx-large;
+    font-size: 65px;
     font-weight: bold;
     padding: 90px;
 }
@@ -51,38 +55,81 @@ button{
 button:hover{
     background-color: rgba(23, 12, 180, 0.466);
 }
+     /* Action */
+.div1 h1,p{
+    margin-bottom: 20px;
+}  
+#buttonmgtop{
+    margin-top: 20px;
+}   
 .subtitle{
     color: gray;
 }
-.div1{
-    margin: 100px 100px;
+.seeaction{
+    font-weight: bold;
+    font-size: 42px;
+}
+.explore{
+    font-size: 26;
 }
 .wcmini{
     border-radius: 12px;
 }
 .hero-action{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 100px ;
+    padding: 40px;
 }
+        /* Thousands productive */
 .section2{
-    background-color: #4d47ff60;
+    background-color: #4d47ff2f;
     border-radius: 12px;
-    margin: 400px;
+    margin: 40px 400px;
+    width: 1140px;
+    height: 306px;
+    padding-top: 100px;
 }
 .thousands{
     text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 38px;
 }
 .div3{
     display: flex;
     justify-content: space-evenly;
 }
 .big{
-    font-size: xxx-large;
+    font-weight: bold;
+    font-size: 80px;
 }
+        /* Users */
+.user{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+.avatar{
+    display: flex;
+}
+.userdiv{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 400px;
+}
+.bgdiv{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 12px;
+}
+.bgdiv h3,p{
+    margin-bottom: 10px;
+}
+.avatar img{
+    border-radius: 100%;
+    margin-right: 10px;
+}
+        /* Footer */
 footer{
     text-align: center;
 }
@@ -94,8 +141,11 @@ footer{
 .footerul{
     display: flex;
     justify-content: space-between;
-    padding: 0  800px;
+    padding: 40px  750px;
+}
+a{
+    text-decoration: none;
 }
 li{
-    text-decoration: none;
+    list-style-type: none;
 }
