@@ -92,6 +92,11 @@ p {
   height: 306px;
   padding-top: 100px;
 }
+.middle{
+  text-align: center;
+  font-size: 20px;
+  color: #727480
+}
 .thousands {
   text-align: center;
   font-weight: bold;
