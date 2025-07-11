@@ -28,6 +28,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 50px 200px;
+  align-items: center;
 }
 .inter-normal {
   font-weight: 900;
